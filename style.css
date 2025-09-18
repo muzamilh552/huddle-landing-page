@@ -1,0 +1,124 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: sans-serif;
+     background-image: url("images/bg-desktop.svg");
+     padding: 40px 20px;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .container {
+     max-width: 1110px;
+     margin-bottom: -20px;
+     overflow: hidden;
+
+ }
+
+ .logo {
+     filter: invert(27%) sepia(25%) saturate(2578%) hue-rotate(346deg) brightness(104%) contrast(97%);
+ }
+
+ .community-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 25px;
+     align-items: center;
+ }
+
+ .left {
+     width: 100%;
+     height: auto;
+     color: #1b1b1b;
+ }
+
+ .right {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     gap: 25px;
+
+ }
+
+ .right h1 {
+     color: #1b1b1b;
+     font-size: 2.1rem;
+     font-weight: 700;
+     text-align: start;
+
+ }
+
+ .right p {
+     color: #818080;
+     font-size: 14px;
+     text-align: start;
+     line-height: 1.6rem;
+ }
+
+ button {
+     border-radius: 30px;
+     width: 150px;
+     height: 50px;
+     background: white;
+     color: #818080;
+     text-align: center;
+
+ }
+
+ button:hover {
+     cursor: pointer;
+     background: #daa4ad;
+
+ }
+
+ .footer {
+     display: flex;
+     justify-content: right;
+     gap: 40px;
+     margin-left: 60em;
+ }
+
+ .icon {
+     padding: 11px;
+     border-radius: 100px;
+ }
+
+ .facebook {
+     border-radius: 100%;
+     border: 1px solid #d1cbcb;
+ }
+
+ .facebook:hover {
+     border: 1px solid #daa4ad;
+     filter: invert(81%) sepia(10%) saturate(587%) hue-rotate(303deg) brightness(92%) contrast(87%);
+ }
+
+ .twitter {
+     border-radius: 100%;
+     border: 1px solid #d1cbcb;
+
+ }
+
+ .twitter:hover {
+     border: 1px solid #daa4ad;
+     filter: invert(81%) sepia(10%) saturate(587%) hue-rotate(303deg) brightness(92%) contrast(87%);
+ }
+
+ .instagram {
+     border-radius: 100%;
+     border: 1px solid #d1cbcb;
+     ;
+
+ }
+
+ .instagram:hover {
+     border: 1px solid #daa4ad;
+     filter: invert(81%) sepia(10%) saturate(587%) hue-rotate(303deg) brightness(92%) contrast(87%);
+ }
