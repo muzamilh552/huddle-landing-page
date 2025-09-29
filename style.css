@@ -1,0 +1,128 @@
+ @import url("https://fonts.google.com/specimen/Poppins");
+ @import url("https://fonts.google.com/specimen/Open+Sans");
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: sans-serif;
+     background-color: #674baf;
+     background-image: url("images/bg-desktop.svg");
+     padding: 40px 20px;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-family: "Open Sans";
+ }
+
+ .container {
+     max-width: 1110px;
+     margin-bottom: -20px;
+     overflow: hidden;
+
+ }
+
+
+
+ .community-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 25px;
+     align-items: center;
+ }
+
+ .left {
+     width: 100%;
+     height: auto;
+     color: #1b1b1b;
+ }
+
+ .right {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     gap: 25px;
+
+ }
+
+ .right h1 {
+     color: white;
+     font-size: 2.1rem;
+     font-weight: 700;
+     text-align: start;
+
+ }
+
+ .right p {
+     color: #e6dede;
+     font-size: 14px;
+     text-align: start;
+     line-height: 1.6rem;
+ }
+
+ button {
+     border-radius: 30px;
+     width: 150px;
+     height: 50px;
+     background: white;
+     color: #818080;
+     text-align: center;
+     border: none;
+ }
+
+ button:hover {
+     cursor: pointer;
+     background: hsl(300, 69%, 71%);
+
+ }
+
+ .footer {
+     display: flex;
+     justify-content: right;
+     gap: 40px;
+     margin-left: 60em;
+ }
+
+ .icon {
+     padding: 24px;
+     border-radius: 100px;
+ }
+
+ .facebook {
+
+     border-radius: 100%;
+     border: 1px solid #d1cbcb;
+ }
+
+ .facebook:hover {
+     border: 1px solid hsl(300, 69%, 71%);
+     filter: invert(81%) sepia(10%) saturate(587%) hue-rotate(303deg) brightness(92%) contrast(87%);
+ }
+
+ .twitter {
+     border-radius: 100%;
+     border: 1px solid #d1cbcb;
+
+ }
+
+ .twitter:hover {
+     border: 1px solid hsl(300, 69%, 71%);
+     filter: invert(81%) sepia(10%) saturate(587%) hue-rotate(303deg) brightness(92%) contrast(87%);
+ }
+
+ .instagram {
+     border-radius: 100%;
+     border: 1px solid #d1cbcb;
+     ;
+
+ }
+
+ .instagram:hover {
+     border: 1px solid hsl(300, 69%, 71%);
+     filter: invert(81%) sepia(10%) saturate(587%) hue-rotate(303deg) brightness(92%) contrast(87%);
+ }
